@@ -11,10 +11,10 @@ class Board:
                 self.board[i] = [f"{i+1} "] + [f"{'⚪':1}"] * self.length
 
     def print_board(self):
-        print("  ",end=" ")
+        print("   ",end=" ")
         # print all the letters
         for k in range (len(self.board)):
-                print(f"{LETTERS[k]}  ", end=" ")
+                print(f"{LETTERS[k]}  ", end="")
         print("")
         for i in range(len(self.board)):
             for j in range(len(self.board[i])):

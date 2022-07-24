@@ -7,11 +7,11 @@ board.print_board()
 gameOn = True
 while gameOn:
     if board.isGameContinue():
-        board.add_piece(' 🔵 ')
+        board.add_piece('🔵')
     else:
         break
     if board.isGameContinue():
-        board.add_piece(' 🔴 ')
+        board.add_piece('🔴')
     else:
         break
 
